@@ -1,2 +1,5 @@
 # emacs turds
 *~
+
+# stuff we autogenerate
+dot.emacs.d/site-lisp/go
