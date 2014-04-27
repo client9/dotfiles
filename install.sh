@@ -2,8 +2,8 @@
 
 ln -fs "`pwd`/dot.emacs.el" ~/.emacs
 
-mkdir -p ~/.emacs.d/site-lisp
-ln -fs "`pwd`/dot.emacs.d/site-lisp" ~/.emacs.d/site-lisp
+rm -rf ~/.emacs.d/site-lisp
+ln -fs "`pwd`/dot.emacs.d/site-lisp" ~/.emacs.d/
 
 mkdir -p dot.emacs.d/site-lisp
 cd dot.emacs.d/site-lisp/
