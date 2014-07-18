@@ -1,8 +1,9 @@
-#!/bin/bash
+#!/bin/bash -x
 
 ln -fs "`pwd`/dot.emacs.el" ~/.emacs
 
-rm -rf ~/.emacs.d/site-lisp
+rm -rf ~/.emacs.d
+mkdir -p ~/.emacs.d
 ln -fs "`pwd`/dot.emacs.d/site-lisp" ~/.emacs.d/
 
 mkdir -p dot.emacs.d/site-lisp
