@@ -1,0 +1,12 @@
+[user]
+	name = nickg
+	email = nickg@client9.com
+[pull]
+	rebase = true
+[branch]
+	autosetuprebase = always
+[push]
+	default = current
+
+[url "git@github.com:"]
+	insteadOf = https://github.com/
