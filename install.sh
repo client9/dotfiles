@@ -15,7 +15,7 @@ cp -f id_rsa.pub ~/.ssh/id_rsa.pub
 cp dot.vimrc ~/.vimrc
 
 if [ -d  ~/.vim/pack/plugins/start/vim-go ]; then
-  cd ~/.vim/pack/plugins/start/vim-go && git update
+  cd ~/.vim/pack/plugins/start/vim-go && git pull
   echo "do vim :GoUpdateBinaries"
 else
   git clone https://github.com/fatih/vim-go.git ~/.vim/pack/plugins/start/vim-go
