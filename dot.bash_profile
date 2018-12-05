@@ -1,6 +1,8 @@
 #!/bin/sh -x
 
-export GOPATH=$HOME/gopath
+export GOPATH=$HOME/go
+export GOBIN=$GOPATH/bin
+export PATH=$GOBIN:$PATH
 
 SSH_ENV="$HOME/.ssh/environment"
 
