@@ -1,5 +1,7 @@
 #!/bin/sh -x
 
+export GOPATH=$HOME/gopath
+
 SSH_ENV="$HOME/.ssh/environment"
 
 function start_agent {
